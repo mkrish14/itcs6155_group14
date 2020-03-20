@@ -15,14 +15,14 @@ Identify domain and source(s) of data
 
 ## tentative plan for analysis on GCP
 
-           1)  EDA and Preprocessing
+#### EDA and Preprocessing
 
-           2)  Dashboard for User group, Dashboard for Data Engineers
+#### Dashboard for User group, Dashboard for Data Engineers
 
-           3)  GCP further processing - ML
+#### GCP further processing - ML
 
-           4)  Evaluation of results
+#### Evaluation of results
 
-           5)  Steps for production model
+#### Steps for production model
 
-           6)  Final Dashboard for User Group
+#### Final Dashboard for User Group
