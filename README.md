@@ -9,7 +9,8 @@ what is the group trying to learn or question to answer? Who is interested (audi
 # Domain and Data: 
 Identify domain and source(s) of data
 
-## preprocessing that may be necessary (careful here)
+## Preprocessing that may be necessary:
+This is a Kaggle dataset mostly clean and doesnt require much preprocessing.
 
 ## size of data - data must be “big” data (millions of records)
 
