@@ -36,7 +36,7 @@ Thus by carrying out the above PreProcessing steps, our data will be ready for t
 ## Tentative plan for analysis on GCP
 
 #### 1. EDA and Preprocessing
-We will perform EDA on the dataset to gain insights necessary to understand the approach we can take to answer our research question.
+We will perform EDA on the dataset to gain insights necessary to understand the approach we need to take for answering our research question.
 
 #### 2. GCP further processing - ML
 
