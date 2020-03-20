@@ -2,10 +2,11 @@
 
 
 # Team Members:
-Aniruddha
-Bharadwaj
+Aniruddha Shirahatti
+Bharadwaj Aryasomayajula
 Manoj Krishna Mohan
 Sai Kumar Thallada
+Ravi Teja Kolla
 
 # Research question:  
 With the upcoming rise in the global pandemic
