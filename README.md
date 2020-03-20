@@ -15,6 +15,8 @@ The domain of the data is Healthcare or more precisely diseases classification.
 The dataset contains cumulative and non-cumulative count of confirmed, death and recovered global cases of COVID-19 (upto March 14, 2020), we expect the data to be populated again.
 The dataset consists of 70K rows approximately
 
+Link to dataset: https://www.kaggle.com/devready/2019-novel-coronavirus-2019ncov/version/6#2019-nCoV%20(14-Mar-2020).csv
+
 ## Preprocessing that may be necessary:
 This is a Kaggle dataset mostly clean and doesnt require much preprocessing.
 
