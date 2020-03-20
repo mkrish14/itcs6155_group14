@@ -1,11 +1,14 @@
-# itcs6155
-Data Piplelines
+# Prediction of Rate of Cases due to Novel CoronaVirus(COVID-19)
+
 
 # Team Members:
+Aniruddha
+Bharadwaj
+Manoj Krishna Mohan
+Sai Kumar Thallada
 
 # Research question:  
-what is the group trying to learn or question to answer? Who is interested (audience)?
-
+With the upcoming rise in the global pandemic
 # Domain and Data: 
 Identify domain and source(s) of data
 
