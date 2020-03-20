@@ -2,10 +2,10 @@
 
 
 # Team Members:
-Aniruddha Shirahatti. 
-Bharadwaj Aryasomayajula. 
-Manoj Krishna Mohan. 
-Sai Kumar Thallada. 
+Aniruddha Shirahatti.<br/>
+Bharadwaj Aryasomayajula. <br/>
+Manoj Krishna Mohan. <br/>
+Sai Kumar Thallada. <br/>
 Ravi Teja Kolla. 
 
 # Research question:  
