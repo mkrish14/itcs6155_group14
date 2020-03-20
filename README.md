@@ -37,8 +37,8 @@ Thus by carrying out the above PreProcessing steps, our data will be ready for t
 
 #### 1. EDA and Preprocessing
 
-#### 3. GCP further processing - ML
+#### 2. GCP further processing - ML
 
-#### 4. Evaluation of results
+#### 3. Evaluation of results
 
-#### 5. Final Dashboard for User Group
+#### 4. Final Dashboard for User Group
