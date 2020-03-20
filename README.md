@@ -2,7 +2,7 @@
 
 
 # Team Members:
-Aniruddha Sudhindra Shirahatti.<br/>
+Aniruddha Shirahatti.<br/>
 Bharadwaj Aryasomayajula. <br/>
 Manoj Krishna Mohan. <br/>
 Sai Kumar Thallada. <br/>
@@ -36,10 +36,10 @@ Thus by carrying out the above PreProcessing steps, our data will be ready for t
 ## Tentative plan for analysis on GCP
 
 #### 1. EDA and Preprocessing
-We will perform EDA on the dataset to gain insights necessary to understand the approach we need to take for answering our research question.
+We are going to perform EDA on the dataset to gain insights necessary to understand the approach we can take to answer our research question.
 
 #### 2. GCP further processing - ML
-
+We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.
 #### 3. Evaluation of results
-
+We evaluate the metric results as a part of the model evaluation
 #### 4. Final Dashboard for User Group
