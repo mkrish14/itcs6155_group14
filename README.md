@@ -33,16 +33,12 @@ Thus by carrying out the above PreProcessing steps, our data will be ready for t
 
 <!-- ## size of data - data must be “big” data (millions of records) -->
 
-## tentative plan for analysis on GCP
+## Tentative plan for analysis on GCP
 
-#### EDA and Preprocessing
+#### 1. EDA and Preprocessing
 
-#### Dashboard for User group, Dashboard for Data Engineers
+#### 3. GCP further processing - ML
 
-#### GCP further processing - ML
+#### 4. Evaluation of results
 
-#### Evaluation of results
-
-#### Steps for production model
-
-#### Final Dashboard for User Group
+#### 5. Final Dashboard for User Group
