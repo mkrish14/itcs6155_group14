@@ -13,12 +13,23 @@ With the upcoming rise in the global pandemic, we try to predict the upcoming nu
 # Domain and Data: 
 The domain of the data is Healthcare or more precisely diseases classification.
 The dataset contains cumulative and non-cumulative count of confirmed, death and recovered global cases of COVID-19 (upto March 14, 2020), we expect the data to be populated again.
-The dataset consists of 70K rows approximately
+The dataset consists of 70K rows approximately and 8 columns **for each CSV**:
+Country/RegionCountry/Region<br/>
+Province/StateProvince/State<br/>
+LatLatitude<br/>
+LongLongitude<br/>
+DateDate<br/>
+StatusConfirmed, Deaths or Recovered<br/>
+CumulitiveCasesCumulative number of cases<br/>
+CasesNon-cumulative number of cases (Daily cases)<br/>
 
 ## Preprocessing that may be necessary:
-This is a Kaggle dataset mostly clean and doesnt require much preprocessing.
+- Since we have 4 CSV files, we need to concatenate them, in order to predict the next occurence of confirmed cases or deaths.
+- We also plan to perform binning dataset, where we categorize the data by changing the Province column to another column called as Region as in, *ASIA, EUROPE, MIDDLE-EAST, NORTH AMERICA, SOUTH AMERICA, AUSTRALIA*
 
-## size of data - data must be “big” data (millions of records)
+Thus by carrying out the above PreProcessing steps, our data will be ready for the next task of Training the Machine Learning Model.
+
+<!-- ## size of data - data must be “big” data (millions of records) -->
 
 ## tentative plan for analysis on GCP
 
