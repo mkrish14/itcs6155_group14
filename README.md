@@ -2,10 +2,11 @@
 
 
 # Team Members:
-Aniruddha
-Bharadwaj
-Manoj Krishna Mohan
-Sai Kumar Thallada
+Aniruddha Shirahatti.<br/>
+Bharadwaj Aryasomayajula. <br/>
+Manoj Krishna Mohan. <br/>
+Sai Kumar Thallada. <br/>
+Ravi Teja Kolla. 
 
 # Research question:  
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
