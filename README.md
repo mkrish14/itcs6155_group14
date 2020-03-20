@@ -23,6 +23,8 @@ StatusConfirmed, Deaths or Recovered<br/>
 CumulitiveCasesCumulative number of cases<br/>
 CasesNon-cumulative number of cases (Daily cases)<br/>
 
+Link to dataset: https://www.kaggle.com/devready/2019-novel-coronavirus-2019ncov/version/6#2019-nCoV%20(14-Mar-2020).csv
+
 ## Preprocessing that may be necessary:
 - Since we have 4 CSV files, we need to concatenate them, in order to predict the next occurence of confirmed cases or deaths.
 - We also plan to perform binning dataset, where we categorize the data by changing the Province column to another column called as Region as in, *ASIA, EUROPE, MIDDLE-EAST, NORTH AMERICA, SOUTH AMERICA, AUSTRALIA*
