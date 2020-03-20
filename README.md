@@ -2,7 +2,7 @@
 
 
 # Team Members:
-Aniruddha Shirahatti.<br/>
+Aniruddha Sudhindra Shirahatti.<br/>
 Bharadwaj Aryasomayajula. <br/>
 Manoj Krishna Mohan. <br/>
 Sai Kumar Thallada. <br/>
