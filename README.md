@@ -8,9 +8,11 @@ Manoj Krishna Mohan
 Sai Kumar Thallada
 
 # Research question:  
-With the upcoming rise in the global pandemic
+With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
 # Domain and Data: 
-Identify domain and source(s) of data
+The domain of the data is Healthcare or more precisely diseases classification.
+The dataset contains cumulative and non-cumulative count of confirmed, death and recovered global cases of COVID-19 (upto March 14, 2020), we expect the data to be populated again.
+The dataset consists of 70K rows approximately
 
 ## Preprocessing that may be necessary:
 This is a Kaggle dataset mostly clean and doesnt require much preprocessing.
