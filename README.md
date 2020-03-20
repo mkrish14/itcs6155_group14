@@ -2,11 +2,11 @@
 
 
 # Team Members:
-Aniruddha Shirahatti.<br/>
-Bharadwaj Aryasomayajula. <br/>
-Manoj Krishna Mohan. <br/>
-Sai Kumar Thallada. <br/>
-Ravi Teja Kolla. 
+Aniruddha Sudhindra Shirahatti<br/>
+Bharadwaj Aryasomayajula<br/>
+Manoj Krishna Mohan<br/>
+Sai Kumar Thallada<br/>
+Ravi Teja Kolla
 
 # Research question:  
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
@@ -33,7 +33,7 @@ Thus by carrying out the above PreProcessing steps, our data will be ready for t
 
 <!-- ## size of data - data must be “big” data (millions of records) -->
 
-## Tentative plan for analysis on GCP
+## Tentative plan for analysis on GCP:
 
 #### 1. EDA and Preprocessing
 We are going to perform EDA on the dataset to gain insights necessary to understand the approach we can take to answer our research question.
