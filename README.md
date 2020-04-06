@@ -2,11 +2,11 @@
 
 
 # Team Members:
-Aniruddha Shirahatti.<br/>
-Bharadwaj Aryasomayajula. <br/>
-Manoj Krishna Mohan. <br/>
-Sai Kumar Thallada. <br/>
-Ravi Teja Kolla. 
+Aniruddha Sudhindra Shirahatti<br/>
+Bharadwaj Aryasomayajula<br/>
+Manoj Krishna Mohan<br/>
+Sai Kumar Thallada<br/>
+Ravi Teja Kolla
 
 # Research question:  
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
@@ -33,7 +33,7 @@ Thus by carrying out the above PreProcessing steps, our data will be ready for t
 
 <!-- ## size of data - data must be “big” data (millions of records) -->
 
-## Tentative plan for analysis on GCP
+## Tentative plan for analysis on GCP:
 
 #### 1. EDA and Preprocessing
 We are going to perform EDA on the dataset to gain insights necessary to understand the approach we can take to answer our research question.
@@ -41,5 +41,11 @@ We are going to perform EDA on the dataset to gain insights necessary to underst
 #### 2. GCP further processing - ML
 We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.
 #### 3. Evaluation of results
-We evaluate the metric results as a part of the model evaluation
+We are planning to use following evaluation metrics for evaluating the accuracy of ML model in our project:
+1. R2 Score
+2. Mean Squared Error (MSE)
+3. Mean Absolute Error (MAE)
+4. Confusion Matrix
+5. Area Under Curve (AUC)
 #### 4. Final Dashboard for User Group
+We are planning to perform analysis on the data by creating easy to interpret dashboard on Google Data Studio for the User Group.
