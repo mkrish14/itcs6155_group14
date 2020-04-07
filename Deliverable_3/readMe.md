@@ -81,10 +81,12 @@ The data for plotting is stored in the *Google Cloud Storage Bucket*, which is l
 
 We have plotted three different plot to visualize the data:
 - **Line plot** (along with a trendline which is exponential).
-- A **GeoPlot/GeoMap Plot** which indicates which regions of the United States are affected more.*(The number below depict the running sum)*
+We ploted a line plot against the cases vs Data which depicts an exponential growth of the increase in number of COVID-19 cases. From the graph, it can be infered that there was a spike/increase in the number of positive cases in the 3rd week of March following an exponential trend line
+- A **GeoPlot/GeoMap Plot** which indicates which regions of the United States are affected more.
+We plotted a geo Map which shows the maximium afftected states in the United States. This is the contrast of the red color in the geo map.
+From the graph, it is clearly evident that how the states of US are affected based on the color contrast. As wee can see states like North Carolina, Wisconsin, Arizona, Alabama to be in light contrast when compared to mid range affected states like California, Florida and Washington. New York is the most affected state with no other state matching the color contrast.
 - A **Pie Chart** which shows how much percentage of People with Confirmed Active COVID-19 Cases are present and number of Deaths in the US.
-
-
+From the chart, it can be inferred that 97.9% (https://www.worldometers.info/coronavirus/country/us/) are the confirmed cases and the rest 2.1 % are the total number of deaths occured across the nation.
 
 
 <!-- ## size of data - data must be “big” data (millions of records) -->
