@@ -39,9 +39,13 @@ Since the dataset we have taken contains the global data of the pandemic COVID 1
 Link to dataset: https://www.tableau.com/covid-19-coronavirus-data-resources
 
 ## Preprocessing that may be necessary:
+Preprocessing is included as a Jupyter Notebook which can be viewed in the GitHub site URL provided:
+https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverable3.ipynb
+
+
 - We dropped a few columns which are least corelated with the predicator variables and had only kept those columns which actually contribute in determining the target and help in the prediction analysis.
 - The following is a list of all the columns that were dropped off
-'Admin2',
+ 'Admin2',
  'If Province Empty Country',
  'Select Metric',
  'Country Label',
@@ -64,12 +68,23 @@ Link to dataset: https://www.tableau.com/covid-19-coronavirus-data-resources
  'Select Metric Header Short',
  'Table_Names'
 
- - We had renamed a few columns for our convenience 
+ - We have renamed a few columns for our convenience 
  - Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
  - Since the date column was a string, we converted the entire column to a Pandas DateTime object.
  - We performed label encoding on the categorical data type objects to convert them into int data type.
  - As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
   
+
+The **EDA Dashboard** has been created using Google Datastudio.
+
+The data for plotting is stored in the *Google Cloud Storage Bucket*, which is later on imported to the DataStudio.
+
+We have plotted three different plot to visualize the data:
+- **Line plot** (along with a trendline which is exponential).
+- A **GeoPlot/GeoMap Plot** which indicates which regions of the United States are affected more.*(The number below depict the running sum)*
+- A **Pie Chart** which shows how much percentage of People with Confirmed Active COVID-19 Cases are present and number of Deaths in the US.
+
+
 
 <!-- ## size of data - data must be “big” data (millions of records) -->
 
@@ -92,3 +107,8 @@ We are planning to perform analysis on the data by creating easy to interpret da
 
 #### EDA
 #### Pre-Processing
+
+## Research Citations
+
+[1] https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext
+[2] https://console.cloud.google.com/marketplace/details/johnshopkins/covid19_jhu_global_cases
