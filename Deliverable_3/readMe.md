@@ -10,6 +10,15 @@ Ravi Teja Kolla
 
 # Research question:  
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
+
+# Audience Definition:
+
+The problem we are trying to solve is related to the global pandemic that the entire world is facing.
+
+We have amassed a huge data spanning from January to the present day. This includes data from all the states, Counties with detailed information such as latitude and longitude.
+
+By taking up this dataset, we aim mainly at forecasting the rise in the number of COVID-19 Cases across the United States being the main audience for the Problem statement. 
+
 # Domain and Data: 
 The domain of the data is Healthcare or more precisely diseases classification.
 The dataset contains cumulative and non-cumulative count of confirmed, death and recovered global cases of COVID-19 (upto March 14, 2020), we expect the data to be populated again.
