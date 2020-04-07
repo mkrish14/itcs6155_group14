@@ -75,7 +75,7 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
  - As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
   
 
-The **EDA Dashboard** has been created using Google Datastudio.
+The **EDA Dashboard** has been created using **Google Datastudio**. (https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/ExploratoryDataAnalysis.pdf)
 
 The data for plotting is stored in the *Google Cloud Storage Bucket*, which is later on imported to the DataStudio.
 
@@ -83,6 +83,7 @@ We have plotted three different plot to visualize the data:
 - **Line plot** (along with a trendline which is exponential).
 - A **GeoPlot/GeoMap Plot** which indicates which regions of the United States are affected more.*(The number below depict the running sum)*
 - A **Pie Chart** which shows how much percentage of People with Confirmed Active COVID-19 Cases are present and number of Deaths in the US.
+
 
 
 
