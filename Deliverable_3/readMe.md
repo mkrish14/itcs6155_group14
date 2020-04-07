@@ -113,3 +113,6 @@ We are planning to perform analysis on the data by creating easy to interpret da
 
 [1] https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext
 [2] https://console.cloud.google.com/marketplace/details/johnshopkins/covid19_jhu_global_cases
+[3] https://www.fredhutch.org/en/news/center-news/2020/03/coronavirus-latest-scientific-research.html
+[4] https://www.accuweather.com/en/weather-blogs/weathermatrix/analysis-of-new-research-paper-tying-coronavirus-to-weather/703270
+
