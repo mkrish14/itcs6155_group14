@@ -46,28 +46,29 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
 
 - We dropped a few columns which are least corelated with the predicator variables and had only kept those columns which actually contribute in determining the target and help in the prediction analysis.
 - The following is a list of all the columns that were dropped off
-	** 'Admin2',
-	** 'If Province Empty Country',
-	** 'Select Metric',
-	** 'Country Label',
-	** 'LOG(SUM([Cases]))',
-	** 'Select Metric Swapper',
-	** 'Province_State Label (not US)',
-	** 'Province_State Label (US)',
-	** 'US Unassigned?',
-	** 'US Out of Area?',
-	** 'Metric Switcher',
-	** 'Case Type 2',
-	** 'Case Type Notes',
-	** 'Combined_Key',
-	** 'Province Label',
-	** 'FIPS',
-	** 'If Province Empty then ""',
-	** 'LOG(Metric Switcher)',
-	** 'Number of Records',
-	** 'Prep Flow Runtime',
-	** 'Select Metric Header Short',
-	** 'Table_Names'
+<br/>
+'Admin2',<br/>
+'If Province Empty Country',<br/>
+'Select Metric',<br/>
+'Country Label',<br/>
+'LOG(SUM([Cases]))',<br/>
+'Select Metric Swapper',<br/>
+'Province_State Label (not US)',<br/>
+'Province_State Label (US)',<br/>
+'US Unassigned?',<br/>
+'US Out of Area?',<br/>
+'Metric Switcher',<br/>
+'Case Type 2',<br/>
+'Case Type Notes',<br/>
+'Combined_Key',<br/>
+'Province Label',<br/>
+'FIPS',<br/>
+'If Province Empty then ""',<br/>
+'LOG(Metric Switcher)',<br/>
+'Number of Records',<br/>
+'Prep Flow Runtime',<br/>
+'Select Metric Header Short',<br/>
+'Table_Names'<br/>
 
  - We have renamed a few columns for our convenience 
  - Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
