@@ -92,3 +92,6 @@ We are planning to perform analysis on the data by creating easy to interpret da
 
 #### EDA
 #### Pre-Processing
+
+### Research Citations
+[1] https://console.cloud.google.com/marketplace/details/johnshopkins/covid19_jhu_global_cases
