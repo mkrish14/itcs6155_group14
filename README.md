@@ -22,7 +22,8 @@ By taking up this dataset, we aim mainly at forecasting the rise in the number o
 The domain of the data is Healthcare or more precisely diseases classification.
 The dataset contains cumulative and non-cumulative count of confirmed, death and recovered global cases of COVID-19 (upto March 14, 2020), we expect the data to be populated again.
 The dataset consists of 500,000 rows approximately and 11 columns **for each CSV**:
-<br>location      
+<br>
+location      
 county        
 ship          
 case_type   
@@ -45,28 +46,28 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
 
 - We dropped a few columns which are least corelated with the predicator variables and had only kept those columns which actually contribute in determining the target and help in the prediction analysis.
 - The following is a list of all the columns that were dropped off
- 'Admin2',
- 'If Province Empty Country',
- 'Select Metric',
- 'Country Label',
- 'LOG(SUM([Cases]))',
- 'Select Metric Swapper',
- 'Province_State Label (not US)',
- 'Province_State Label (US)',
- 'US Unassigned?',
- 'US Out of Area?',
- 'Metric Switcher',
- 'Case Type 2',
- 'Case Type Notes',
- 'Combined_Key',
- 'Province Label',
- 'FIPS',
- 'If Province Empty then ""',
- 'LOG(Metric Switcher)',
- 'Number of Records',
- 'Prep Flow Runtime',
- 'Select Metric Header Short',
- 'Table_Names'
+- - 'Admin2',
+- - 'If Province Empty Country',
+- - 'Select Metric',
+- - 'Country Label',
+- - 'LOG(SUM([Cases]))',
+- - 'Select Metric Swapper',
+- - 'Province_State Label (not US)',
+- - 'Province_State Label (US)',
+- - 'US Unassigned?',
+- - 'US Out of Area?',
+- - 'Metric Switcher',
+- - 'Case Type 2',
+- - 'Case Type Notes',
+- - 'Combined_Key',
+- - 'Province Label',
+- - 'FIPS',
+- - 'If Province Empty then ""',
+- - 'LOG(Metric Switcher)',
+- - 'Number of Records',
+- - 'Prep Flow Runtime',
+- - 'Select Metric Header Short',
+- - 'Table_Names'
 
  - We have renamed a few columns for our convenience 
  - Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
