@@ -94,4 +94,5 @@ We are planning to perform analysis on the data by creating easy to interpret da
 #### Pre-Processing
 
 ### Research Citations
-[1] https://console.cloud.google.com/marketplace/details/johnshopkins/covid19_jhu_global_cases
+[1] https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext
+[2] https://console.cloud.google.com/marketplace/details/johnshopkins/covid19_jhu_global_cases
