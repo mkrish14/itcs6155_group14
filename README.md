@@ -105,6 +105,10 @@ We are planning to use following evaluation metrics for evaluating the accuracy 
 3. Mean Absolute Error (MAE)
 4. Confusion Matrix
 5. Area Under Curve (AUC)
+<br/>
+Evaluating Machine Learning Projects: Forty Three Rules of Machine Learning.<br/>
+https://saniruddha.github.io/Forty-Three-Rules-of-Machine-Learning/EvaluatingMachineLearningProjectsFortyThreeRu.html
+
 #### 3. Final Dashboard for User Group
 We are planning to perform analysis on the data by creating easy to interpret dashboard on Google Data Studio for the User Group.
 
