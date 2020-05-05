@@ -1,11 +1,11 @@
 # Prediction of COVID-19 Cases
 
-# Team Members:
-Aniruddha Sudhindra Shirahatti<br/>
-Bharadwaj Aryasomayajula<br/>
-Manoj Krishna Mohan<br/>
-Sai Kumar Thallada<br/>
-Ravi Teja Kolla
+# Team Members and Duties:
+Aniruddha Sudhindra Shirahatti - Data Cleaning & Preprocessing, EDA, Model Evaluation Metrics, Readme, Report<br/>
+Bharadwaj Aryasomayajula - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
+Manoj Krishna Mohan - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
+Sai Kumar Thallada - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
+Ravi Teja Kolla - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report
 
 # Research question:  
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
@@ -96,15 +96,16 @@ From the chart, it can be inferred that 97.9% (https://www.worldometers.info/cor
 ## Tentative plan for analysis on GCP:
 
 #### 1. GCP further processing - ML
-We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.
+<!--We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.-->
+We are leveraging the power of machine learning for predictions. We have carefully referred to the information shared by Google and implemented the below mentioned rules to develop a good machine learning solution for our project on ‘Prediction of COVID-19 Cases’.
 
 #### 2. Evaluation of results
 We are planning to use following evaluation metrics for evaluating the accuracy of ML model in our project:
 1. R2 Score
 2. Mean Squared Error (MSE)
 3. Mean Absolute Error (MAE)
-4. Confusion Matrix
-5. Area Under Curve (AUC)
+<!--4. Confusion Matrix
+5. Area Under Curve (AUC)-->
 <br/>
 Evaluating Machine Learning Projects: Forty Three Rules of Machine Learning.<br/>
 https://saniruddha.github.io/forty-three-rules-of-machine-learning.github.io/
