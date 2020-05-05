@@ -24,10 +24,10 @@ We have amassed a huge data spanning from January to the present day. This inclu
 By taking up this dataset, we aim mainly at forecasting the rise in the number of COVID-19 Cases across the United States being the main audience for the Problem statement. 
 
 # Major Steps Involved In Development
-Data Collection<br/>
-Data Preprocessing<br/>
-Exploratory Data Analysis<br/>
-Data Modeling and Evaluation
+* Data Collection<br/>
+* Data Preprocessing<br/>
+* Exploratory Data Analysis<br/>
+* Data Modeling and Evaluation
 
 
 # Domain and Data
@@ -116,9 +116,9 @@ We are leveraging the power of machine learning for predictions. We have careful
 
 #### 2. Evaluation of results
 We are planning to use following evaluation metrics for evaluating the accuracy of ML model in our project:
-1. R2 Score
-2. Mean Squared Error (MSE)
-3. Mean Absolute Error (MAE)
+* R2 Score
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
 <!--4. Confusion Matrix
 5. Area Under Curve (AUC)-->
 <br/>
