@@ -1,15 +1,15 @@
 # Prediction of COVID-19 Cases
 
 # Team Members and Duties (Project Group 14)
-Aniruddha Sudhindra Shirahatti <br/>
+* Aniruddha Sudhindra Shirahatti <br/>
 *Duties - Data Cleaning & Preprocessing, EDA, Model Evaluation Metrics, Readme, Report*<br/>
-Bharadwaj Aryasomayajula <br/>
+* Bharadwaj Aryasomayajula <br/>
 *Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report*<br/>
-Manoj Krishna Mohan <br/>
+* Manoj Krishna Mohan <br/>
 *Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report*<br/>
-Sai Kumar Thallada <br/>
+* Sai Kumar Thallada <br/>
 *Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report*<br/>
-Ravi Teja Kolla <br/>
+* Ravi Teja Kolla <br/>
 *Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report*
 
 # Research question
