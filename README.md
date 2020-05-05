@@ -79,7 +79,7 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
 
 The **EDA Dashboard** has been created using **Google Datastudio**. (https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/ExploratoryDataAnalysis.pdf)
 
-The data for plotting is stored in the *Google Cloud Storage Bucket*, which is later on imported to the DataStudio.
+The data for plotting is stored in the *Google Cloud Storage Bucket*, which is later on imported to the Google DataStudio.
 
 We have plotted three different plot to visualize the data:
 - **Line plot** (along with a trendline which is exponential).
