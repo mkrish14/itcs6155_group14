@@ -24,9 +24,9 @@ We have amassed a huge data spanning from January to the present day. This inclu
 By taking up this dataset, we aim mainly at forecasting the rise in the number of COVID-19 Cases across the United States being the main audience for the Problem statement. 
 
 # Major Steps Involved In Development
-Data Collection
-Data Preprocessing
-Exploratory Data Analysis
+Data Collection<br/>
+Data Preprocessing<br/>
+Exploratory Data Analysis<br/>
 Data Modeling and Evaluation
 
 
