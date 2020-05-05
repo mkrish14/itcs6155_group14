@@ -1,11 +1,16 @@
 # Prediction of COVID-19 Cases
 
 # Team Members and Duties (Project Group 14)
-Aniruddha Sudhindra Shirahatti - Data Cleaning & Preprocessing, EDA, Model Evaluation Metrics, Readme, Report<br/>
-Bharadwaj Aryasomayajula - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
-Manoj Krishna Mohan - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
-Sai Kumar Thallada - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
-Ravi Teja Kolla - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report
+Aniruddha Sudhindra Shirahatti <br/>
+Duties - Data Cleaning & Preprocessing, EDA, Model Evaluation Metrics, Readme, Report<br/>
+Bharadwaj Aryasomayajula <br/>
+Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
+Manoj Krishna Mohan <br/>
+Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
+Sai Kumar Thallada <br/>
+Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
+Ravi Teja Kolla <br/>
+Duties - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report
 
 # Research question
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
