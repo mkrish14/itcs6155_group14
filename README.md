@@ -82,6 +82,7 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
 'Select Metric Header Short',<br/>
 'Table_Names'<br/>
 
+
  - We have renamed a few columns for our convenience 
  - Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
  - Since the date column was a string, we converted the entire column to a Pandas DateTime object.
@@ -109,6 +110,13 @@ From the chart, it can be inferred that 97.9% (https://www.worldometers.info/cor
 <!--## Tentative plan for analysis on GCP:-->
 
 # Data Modeling and Evaluation
+
+We started with the simple linear regression model. As the growth in the number of cases is exponential, we converted the data into logarithmic form before training the linear regression model. Also, we cannot train the linear model with the regular date formats. Therefore, we converted the regular date format to unix timestamp. The next step was to input this data to the linear regressor and try fitting the exponential curve with the help of historical data. We trained the models separately for each state and tried to best fit a line to this exponential data. Post training the linear regression model, we converted the data back to the exponential form and plotted the graph to observe the fit. We observed that the R2 scores for the trained models were not that great to make the best predictions on the unseen data.
+
+Therefore, we started thinking about implementing a model that can work best on this exponential data and also help in making accurate predictions which users can trust and accept. We researched about Prophet - an open source library published by Facebook which provides us the ability to make time series predictions with good accuracy. We used the Prophet to predict the number of COVID-19 cases on any given date for each state in the United States separately.
+
+As the predictions made using Facebook Prophet were accurate, we finalized implementing our system using the powerful library by Facebook.
+
 
 #### 1. GCP further processing - ML
 <!--We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.-->
