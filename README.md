@@ -83,11 +83,11 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
 'Table_Names'<br/>
 
 <br/>
- - We have renamed a few columns for our convenience 
- - Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
- - Since the date column was a string, we converted the entire column to a Pandas DateTime object.
- - We performed label encoding on the categorical data type objects to convert them into int data type.
- - As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
+ * We have renamed a few columns for our convenience 
+ * Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
+ * Since the date column was a string, we converted the entire column to a Pandas DateTime object.
+ * We performed label encoding on the categorical data type objects to convert them into int data type.
+ * As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
   
 
 # Exploratory Data Analysis
@@ -125,7 +125,7 @@ We are planning to use following evaluation metrics for evaluating the accuracy 
 <br/>
 Evaluating Machine Learning Projects: Forty Three Rules of Machine Learning.<br/>
 https://saniruddha.github.io/forty-three-rules-of-machine-learning.github.io/
-<br/>
+<br/><br/>
 
 We started with the simple linear regression model. As the growth in the number of cases is exponential, we converted the data into logarithmic form before training the linear regression model. Also, we cannot train the linear model with the regular date formats. Therefore, we converted the regular date format to unix timestamp. The next step was to input this data to the linear regressor and try fitting the exponential curve with the help of historical data. We trained the models separately for each state and tried to best fit a line to this exponential data. Post training the linear regression model, we converted the data back to the exponential form and plotted the graph to observe the fit. We observed that the R2 scores for the trained models were not that great to make the best predictions on the unseen data.
 
