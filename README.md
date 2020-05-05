@@ -1,16 +1,16 @@
 # Prediction of COVID-19 Cases
 
-# Team Members and Duties:
+# Team Members and Duties
 Aniruddha Sudhindra Shirahatti - Data Cleaning & Preprocessing, EDA, Model Evaluation Metrics, Readme, Report<br/>
 Bharadwaj Aryasomayajula - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
 Manoj Krishna Mohan - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
 Sai Kumar Thallada - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report<br/>
 Ravi Teja Kolla - Data Cleaning & Preprocessing, EDA, Modeling, Readme, Report
 
-# Research question:  
+# Research question
 With the upcoming rise in the global pandemic, we try to predict the upcoming number of cases which could be confirmed for a specific date. We also plan to predict the region across which the number of cases can increase. With our knowledge, we take on a challenging problem to solve a global case of emergency.
 
-# Audience Definition:
+# Audience Definition
 
 The problem we are trying to solve is related to the global pandemic that the entire world is facing.
 
@@ -18,7 +18,14 @@ We have amassed a huge data spanning from January to the present day. This inclu
 
 By taking up this dataset, we aim mainly at forecasting the rise in the number of COVID-19 Cases across the United States being the main audience for the Problem statement. 
 
-# Domain and Data: 
+# Major Steps Involved In Development
+Data Collection
+Data Preprocessing
+Exploratory Data Analysis
+Data Modeling and Evaluation
+
+
+# Domain and Data
 The domain of the data is Healthcare or more precisely diseases classification.
 The dataset contains cumulative and non-cumulative count of confirmed, death and recovered global cases of COVID-19 (upto March 14, 2020), we expect the data to be populated again.
 The dataset consists of 500,000 rows approximately and 11 columns **for each CSV**:
@@ -39,7 +46,7 @@ Since the dataset we have taken contains the global data of the pandemic COVID 1
 
 Link to dataset: https://www.tableau.com/covid-19-coronavirus-data-resources
 
-## Preprocessing that may be necessary:
+# Data Preprocessing
 Preprocessing is included as a Jupyter Notebook which can be viewed in the GitHub site URL provided:
 https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverable3.ipynb
 
@@ -77,6 +84,7 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
  - As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
   
 
+# Exploratory Data Analysis
 The **EDA Dashboard** has been created using **Google Datastudio**. (https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/ExploratoryDataAnalysis.pdf)
 
 The data for plotting is stored in the *Google Cloud Storage Bucket*, which is later on imported to the Google DataStudio.
@@ -93,7 +101,9 @@ From the chart, it can be inferred that 97.9% (https://www.worldometers.info/cor
 
 <!-- ## size of data - data must be “big” data (millions of records) -->
 
-## Tentative plan for analysis on GCP:
+<!--## Tentative plan for analysis on GCP:-->
+
+# Data Modeling and Evaluation
 
 #### 1. GCP further processing - ML
 <!--We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.-->
@@ -110,15 +120,15 @@ We are planning to use following evaluation metrics for evaluating the accuracy 
 Evaluating Machine Learning Projects: Forty Three Rules of Machine Learning.<br/>
 https://saniruddha.github.io/forty-three-rules-of-machine-learning.github.io/
 
-#### 3. Final Dashboard for User Group
+# Final Dashboard for User Group
 We are planning to perform analysis on the data by creating easy to interpret dashboard on Google Data Studio for the User Group.
 
-## Completed Set of Tasks
+<!--## Completed Set of Tasks-->
 
-#### EDA
-#### Pre-Processing
+<!--#### EDA
+#### Pre-Processing-->
 
-## Research Citations
+# Research Citations
 
 [1] https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext <br/>
 [2] https://console.cloud.google.com/marketplace/details/johnshopkins/covid19_jhu_global_cases <br/>
