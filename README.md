@@ -83,11 +83,11 @@ https://github.com/mkrish14/itcs6155_group14/blob/master/Deliverable_3/deliverab
 'Table_Names'<br/>
 
 <br/>
- * We have renamed a few columns for our convenience 
- * Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
- * Since the date column was a string, we converted the entire column to a Pandas DateTime object.
- * We performed label encoding on the categorical data type objects to convert them into int data type.
- * As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
+- We have renamed a few columns for our convenience 
+- Since the column by name "County" had a preceding label "|County" we cleaned the data by removing the preceeding labels.
+- Since the date column was a string, we converted the entire column to a Pandas DateTime object.
+- We performed label encoding on the categorical data type objects to convert them into int data type.
+- As a last step of preprocessing we converted all the NaN values of the "difference" columns to zeroes.
   
 
 # Exploratory Data Analysis
@@ -111,11 +111,11 @@ From the chart, it can be inferred that 97.9% (https://www.worldometers.info/cor
 
 # Data Modeling and Evaluation
 
-#### 1. GCP further processing - ML
+#### GCP further processing - ML
 <!--We are going to implement various CART Algorithms(Classification and Regression Treees) to predict the accuracy and correctness of the machine learning model implemented.-->
 We are leveraging the power of machine learning for predictions. We have carefully referred to the information shared by Google and implemented the below mentioned rules to develop a good machine learning solution for our project on ‘Prediction of COVID-19 Cases’.
 
-#### 2. Evaluation of results
+#### Evaluation of results
 We are planning to use following evaluation metrics for evaluating the accuracy of ML model in our project:
 * R2 Score
 * Mean Squared Error (MSE)
