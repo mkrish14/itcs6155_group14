@@ -190,7 +190,7 @@ We have plotted three different plot to visualize the data:
     are the confirmed cases and the rest 2.1 % are the total number of
     deaths occurring across the nation.
 
-###### **Retrieval of Air quality index data for all the states in Unites States**
+## **Retrieval of Air quality index data for all the states in Unites States**
 
 The recent studies determine that a person residing for decades in a
 county with high stages of best particulate count number is 15 percent
@@ -272,7 +272,7 @@ difficult to predict the number of cases based on the AQI
 
 ![A picture containing meter Description automatically
 generated](.//media/image4.png)
-##### **Data Modeling and Evaluation:**
+## **Data Modeling and Evaluation:**
 
 We are working with the time series data. 'A time series is simply a
 series of data points ordered in time'. In this time series data, time
@@ -309,8 +309,8 @@ how well the model fits our data. R2 score is always between 0 and 100%.
 In general, the higher the R-squared, the better the model fits your
 data.
 
-**[Curve fitting for Exponential Data using
-LinearRegressor:**
+### Curve fitting for Exponential Data using
+LinearRegressor:
 
 We trained the models separately for each state and tried to best fit a
 line to this exponential data. Post training the linear regression
@@ -333,7 +333,7 @@ state.
 
 Similarly, we tried fitting line for each state in the United States.
 
-**[Implementation with Tensorflow and LSTM:**
+### Implementation with Tensorflow and LSTM:
 
 Since Neural Nets are known for Learning better than a normal Linear
 Regression Model, we implemented a LSTM model by training the data on
@@ -357,7 +357,7 @@ idea for Deep Neural Nets. And moved on to statistically powerful
 libraries which are more statistical.
 
 ![](.//media/image8.png)
-**[Forecasting using FacebookProphet:**
+### **Forecasting using FacebookProphet:**
 
 Then, we started thinking about implementing a model that can work best
 on this exponential data and also help in making accurate predictions
@@ -398,7 +398,7 @@ carefully referred to the information shared by Google and implemented
 the below mentioned rules to develop a good machine learning solution
 for our project on 'Prediction of COVID-19 Cases'.
 
-###### **Before Machine Learning:**
+## **Before Machine Learning:**
 
 -   **Rule \#1:** Don't be afraid to launch a product without machine
     learning.
@@ -414,7 +414,7 @@ for our project on 'Prediction of COVID-19 Cases'.
 > Error (MSE), and Mean Absolute Error (MAE) after carefully assessing
 > the data quality for making predictions.
 
-###### **ML Phase I: Your First Pipeline:**
+### **ML Phase I: Your First Pipeline:**
 
 -   **Rule \#4:** Keep the first model simple and get the infrastructure
     right.
@@ -425,8 +425,7 @@ for our project on 'Prediction of COVID-19 Cases'.
 > to perform predictions and then improved our forecasting system by
 > implementing Facebook Prophet.
 
-###### **ML Phase II: Feature Engineering: **
-
+### ML Phase II: Feature Engineering:
 -   **Rule \#16:** Plan to launch and iterate.
 
 > We have built a system which will simplify incorporating new changes
@@ -440,7 +439,7 @@ for our project on 'Prediction of COVID-19 Cases'.
 > machine learning model, we have used this approach of testing the
 > model on data with dates after the date in the training data.
 
-##### **App Engine:**
+## **App Engine:**
 
 We have deployed our app on Google App Engine using Google Cloud
 Platform.
@@ -449,7 +448,7 @@ Here is the link to AppEngine:
 
 [https://kbs-covid.ue.r.appspot.com/](https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fkbs-covid.ue.r.appspot.com%2F)
 
-##### **Research Citations:**
+## **Research Citations:**
 
 \[1\]
 <https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30243-7/fulltext>
