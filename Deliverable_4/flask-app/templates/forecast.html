@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <title>KBS</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+   </head>
+   <body>
+      <div class="row">
+         <div class="jumbotron bg-white">
+              <h1 class="display-4"> <strong> Analysis and Forecasting of COVID-19 cases in United States </strong></h1>
+              <br>
+              <h3> Course: ITCS-6115 Knowledge Based Systems </h3>
+              <h5> Github:<a href="https://github.com/mkrish14/itcs6155_group14/tree/master/Deliverable_4"> https://github.com/mkrish14/itcs6155_group14/tree/master/Deliverable_4</a> </h5>
+              <br>
+              <h4>Aniruddha Sudhindra Shirahatti, 
+               Bharadwaj Aryasomayajula,
+               Manoj Krishna Mohan,
+               Sai Kumar Thallada,
+               Ravi Teja Kolla</h4>
+               <hr class="my-4">
+              <br><br>
+               <p class="lead">Different parts of the country are seeing different levels of COVID-19 activity. The United States nationally is in the acceleration phase of the pandemic.  The duration and severity of each pandemic phase can vary depending on the characteristics of the virus and the public health response.</p>
+              <hr class="my-4">
+              <ul>
+                 <li>
+                    <p class="lead"> CDC and state and local public health laboratories are testing for the virus that causes COVID-19. For more details, view CDC’s Public Health Laboratory Testing map </p>
+                 </li>
+                 <li>
+                  <p class="lead"> All 50 states have reported cases of COVID-19 to CDC. </p>
+                 </li>
+                 <li>
+                  <p class="lead">  All U.S. states are reporting community spread of COVID-19 </p>
+                 </li>
+              </ul>
+
+              <p class="lead">With Coronavirus on everyone’s mind and forcing almost all of us indoors, many in the ML community are wondering how they might help. While there have been other articles on fighting coronavirus with AI, few have offered a truly comprehensive view. Therefore, we decided to import a COVID-19 dataset and use cases of machine learning applied to coronavirus. We believe that machine learning and data analytics can help accelerate solutions and minimize the impacts of the virus in conjunction with all the other great research and planning going.</p>
+          </div>
+      </div>
+
+
+      <div class="row">
+         <div class="col" id="belowP">
+            <p class="lead">We combined all the air quality indexes in the range of 0 to 51 into <strong>Low</strong> Air quality index, 51 to 101 as <strong>Medium</strong> Air Quality index and 101 to 150 as <strong>High</strong> Air Quality Index.
+               As most of the states in the US are in the low-quality index it is difficult to implement a ML on the Air Quality Index data since it is difficult to predict the number of cases based on the AQI</p>
+            <p class="lead">We have forecasted the number of cases from May-02 to May-14 with our forecasting model for every state in United States </p>
+            
+            <div class="btn btn-info">
+               <button class="btn dropdown-toggle btn-info" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Click her for Forecast data
+               </button>
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="statesDropdown">
+                 
+               </div>
+            </div>
+      
+         </div>
+         <div class="col">
+            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+         </div>
+      </div>
+
+
+
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document"">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alabama</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body forecast row" id="stateForcastTable">
+                  <img id="plot" src="" alt="" style="width: 500px;">
+                  <img id="forecastplot" src="" alt="">
+               </div>
+               <!-- <div class="forecast" id="stateImage">
+               </div> -->
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         $(document).ready(function() {
+             states=["Alaska","Alabama","Arkansas","Arizona","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Iowa","Idaho","Illinois","Indiana","Kansas","Kentucky","Louisiana","Massachusetts","Maryland","Maine","Michigan","Minnesota","Missouri","Mississippi","Montana","North Carolina","North Dakota","Nebraska","New Hampshire","New Jersey","New Mexico","Nevada","New York","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah", "Virginia","Vermont","Washington","Wisconsin","West Virginia","Wyoming"];
+             states.forEach(element =>{
+                 let button = '<button type="text" class="dropdown-item" data-toggle="modal" data-target="#exampleModal" onclick="getForcast(\''+element+'\')"> '+element+' </button>';
+                 $('#statesDropdown').append(button);
+             })
+         });
+      </script>
+      <script>
+         function getForcast(state){
+             $("table").empty();
+             function arrayToTable(tableData) {
+             var table = $('<table></table>');
+             table.append('<th>Date</th><th>Predicted Cases</th>')
+             for(let i=tableData.length-14;i<tableData.length-1;i++){
+                 var row = $('<tr></tr>');
+                 row.append($('<td>'+tableData[i][0]+'</td>'))
+                 row.append($('<td>'+tableData[i][tableData[i].length-1]+'</td>'))
+                 table.append(row);
+             }
+             return table;
+         }
+         var context ={
+            "state": state
+         };
+
+         var url = "/static/forecast/future_"+state+".csv";
+         var plot = '/static/plots/'+state+'.png';
+         var forecastplot = '/static/forecastplots/future_'+state+'.png';
+         $.get(url, function( data ) {
+            $('#stateForcastTable').append(arrayToTable(Papa.parse(data).data));
+            $("#plot").attr("src", plot);
+            $("#forecastplot").attr("src", forecastplot);
+         $('#exampleModalLabel').html(state);
+         });
+         }
+      </script>
+
+      <script>
+         window.onload = function () {
+         
+         var chart = new CanvasJS.Chart("chartContainer", {
+            exportEnabled: true,
+            animationEnabled: true,
+            title:{
+               text: "Aqi Pie Chart"
+            },
+            legend:{
+               cursor: "pointer",
+               itemclick: explodePie
+            },
+            data: [{
+               type: "pie",
+               showInLegend: true,
+               toolTipContent: "{name}: <strong>{y}%</strong>",
+               indexLabel: "{name} - {y}%",
+               dataPoints: [
+                  { y: 99.22, name: "low", exploded: true },
+                  { y: 0.74, name: "Medium" },
+                  { y: 0.04, name: "High" },
+               ]
+            }]
+         });
+         chart.render();
+         }
+         
+         function explodePie (e) {
+            if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+               e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+            } else {
+               e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+            }
+            e.chart.render();
+         
+         }
+         </script>
+
+      <style>
+         table {
+         border-collapse: collapse;
+         }
+         table, th, td {
+         border: 1px solid black;
+         padding: 3px;
+         }
+         .forecast{
+            width:100%
+         }
+         .modal-content{
+            width: 1120px;
+         }
+         .modal.show .modal-dialog {
+            -webkit-transform: none;
+            transform: translateX(-55%) !important;
+         }
+         h1, h3, h4, h5{
+            text-align: center;
+            font-weight: 100;
+         }
+         .jumbotron{
+            padding-bottom: 0px;
+         }
+         #belowP{
+            margin-left: 5%;
+         }
+      </style>
+   </body>
+</html>
