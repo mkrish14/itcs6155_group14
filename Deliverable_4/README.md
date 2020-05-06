@@ -74,6 +74,18 @@ a global case of emergency.
 
 -   Data Modeling and Evaluation
 
+## Project Structure:
+-   COVID-19 Cases Extract.csv.zip - Dataset
+-   kbs_covid_latestdata.ipynb – Contains the initial Analysis and the preprocessing and our baseline model with Linear Regression.
+-   aqi_airpollution_retrieval.ipynb – Contains the Retrieval code for the Air Quality Index data provided by the EPA.
+-   Exponential Curve Fitting.ipynb – The Exponential Data is converted into Logarithmic Data
+-   ProphetForecast.ipynb – Facebook Prophet Forecast for Each state by a period of 20 days
+-   flask-app – Contains the Flask app deployed on the App-Engine
+-   forecastplots – Facebook Prophet plots for the future
+-   predictions – Consists of the data in .csv with respect to each state and their dates
+-   plots – Consists of CurveFitting plots for the Exponential Dataset grouped by states and date.
+
+
 ## **Domain and Data:**
 
 The domain of the data is Healthcare or more precisely diseases
@@ -274,10 +286,17 @@ difficult to predict the number of cases based on the AQI
 generated](.//media/image4.png)
 ## **Data Modeling and Evaluation:**
 
-We are working with the time series data. 'A time series is simply a
-series of data points ordered in time'. In this time series data, time
-is the independent variable and our goal is to make a forecast for the
-number of COVID-19 cases on a given date in the future.
+### Initial Analysis with AdaBoost Regressor:
+
+After our first stage of Pre-Processing, we proceeded to test the model by performing the Linear Regression on the clustered and unstructured data.
+We have included all the columns as factorized and we performed a AdaBoost Regressor on the Dataset.
+For that particular Regression we obtained the following results:
+**Mean Squared Error: 2040874.1432065824**
+**Root Mean Squared Error: 1428.591664264699**
+
+Here we noted the unnaturally high values in the metrics that we used and concluded that we cannot proceed with the unstructured data which was multivariate.
+We are working with a time series data. ‘A time series is simply a series of data points ordered in time’. In this time series data, time is the independent variable and our goal is to make a forecast for the number of COVID-19 cases on a given date in the future for a particular state
+
 
 We started with the simple linear regression model. A linear regression
 model is a linear approximation of the relationship between two or more
