@@ -1,5 +1,3 @@
-##### **Github Link: **
-<https://github.com/mkrish14/itcs6155_group14>
 ##### **App Engine:**
 
 [https://kbs-covid.ue.r.appspot.com/](https:kbs-covid.ue.r.appspot.com)
